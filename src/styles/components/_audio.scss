@@ -1,0 +1,16 @@
+@mixin fill() {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.audio {
+    @include fill();
+    position: fixed;
+    font-family: "pano_regular";
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: rgb(253, 128, 202);
+}

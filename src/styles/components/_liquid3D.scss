@@ -1,0 +1,13 @@
+.liquid3D {
+    @include fill();
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    canvas {
+        width: 100% !important;
+        max-height: 1200px;
+        max-width: 640px;
+    }
+}
